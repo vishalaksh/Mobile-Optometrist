@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   
+﻿    <item 
+	android:state_enabled="false"
+        android:drawable="@drawable/btn_keyboard_key_fulltrans_pressed"/>
+     <item 
+    	android:state_pressed="true" 
+    	android:state_enabled="true"
+        android:drawable="@drawable/dialog_full_holo_dark_without_shadow" />
+    <item 
+    	android:state_focused="true" 
+    	android:state_enabled="true"
+        android:drawable="@drawable/dialog_full_holo_dark_without_shadow" ></item>
+    <item 
+    	android:state_enabled="true"
+        android:drawable="@drawable/dialog_full_holo_dark" />
+﻿
+
+</selector>

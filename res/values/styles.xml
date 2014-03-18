@@ -1,0 +1,88 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="mytheme" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:buttonStyle">@style/main_button2</item>
+    </style>
+    
+    
+    <style name="mButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+     <style name="mButtonTransparentText" parent="@android:style/Widget.Button">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/transparent</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+<!--      <style name="spinner_holo" parent="@android:style/Widget.Spinner">
+        <item name="android:background">@drawable/spinner_default_holo_dark</item>
+    </style>
+ -->    <style name="SpinnerAsEditText" parent="@android:style/Widget.Spinner">
+        <item name="android:background">@android:drawable/edit_text</item>
+    </style>
+
+    <style name="TextWithSubscript" parent="@android:style/Widget.TextView">
+        <item name="android:paddingTop">15dip</item>
+    </style>
+
+    <style name="MainMenuButton">
+        <item name="android:padding">20dip</item>
+    </style>
+
+    <style name="HeaderTextView">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+       <!--  <item name="android:background">@drawable/overscroll_glow</item> -->
+        <item name="android:gravity">center</item>
+        <item name="android:height">80dp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    
+     <style name="HeaderTextViewVarHeight">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+       <!--  <item name="android:background">@drawable/overscroll_glow</item> -->
+        <item name="android:gravity">center</item>
+        
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    
+     
+    <style name="main_button2" parent="@android:style/Widget.Button">
+        <item name="android:layout_marginBottom">20dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/btn2</item>
+        <item name="android:paddingBottom">15dip</item>
+        <item name="android:paddingTop">15dip</item>
+      <!--   <item name="android:padding">@dimen/padding_medium</item> -->
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+   
+    <style name="button_compact_black" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/btn2</item>
+        <item name="android:textColor">@color/white</item>   
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+     
+    
+    
+</resources>
